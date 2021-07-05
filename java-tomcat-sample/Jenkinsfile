@@ -21,7 +21,7 @@ pipeline {
         {
            build job: 'Project DeployArtifactTomcat'
         }
-                     
+      }              
     }
 }
 
