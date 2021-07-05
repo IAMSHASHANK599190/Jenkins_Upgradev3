@@ -4,7 +4,7 @@ pipeline {
             stage('Init') {
                   steps {
                         echo 'Hi, this is Shashank from Scarborough'
-                        echo 'I like my jobs- Devops Engineer'
+                        echo 'I like my jobs- Devops Engineer and I am rocking'
                   }
             }
             stage('Build') {
@@ -21,9 +21,7 @@ pipeline {
                   steps {
                         echo "Deploying in Production Area"
                   }
-            stage('Deploy Finalizing Area'){
-                  steps {
-                        echo "Deploying in Production Area"
+         
             }
       }
 }
